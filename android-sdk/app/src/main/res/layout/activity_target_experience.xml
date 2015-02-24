@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.scoroi.adobesummit.TargetExperience"
+    style="@style/Platform.AppCompat.Light"
+    android:background="#ffffffff">
+
+    <Button
+        style="?android:textAppearanceSmall"
+        android:id="@+id/buy_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_buy_now"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/experienceImage"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="false"
+        android:nestedScrollingEnabled="false"
+        android:scaleType="centerCrop"
+        android:minHeight="220dp"
+        android:minWidth="330dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/offerNameText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/experienceImage"
+        android:autoText="false"
+        android:textColor="#ff717171"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:elegantTextHeight="false"
+        android:capitalize="words" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/offerContentText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/offerNameText"
+        android:textColor="#ff8e8e8e" />
+
+</RelativeLayout>
