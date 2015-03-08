@@ -14,7 +14,7 @@ One of the objectives of this lab is to get you familiar with the APIs that work
 
 ## [Lesson 3](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-3:-Creating-Experience-targeted-activity)
 
-## [Lesson 4](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-4:-Mobile-Web-Targeting)
+## [Lesson 4](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-4:-Mobile-Device-Targeting)
 
 ## [Lesson 5](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-5:-Understanding-Server-side-mbox-calls)
 
