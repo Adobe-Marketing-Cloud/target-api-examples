@@ -8,14 +8,14 @@ Our goal in this lab is to build a cross device experience targeted activity for
 
 One of the objectives of this lab is to get you familiar with the APIs that work behind the scenes as you interact with the Target UI. The API provides the flexibility to integrate Adobe Target with custom applications. This lab provides you hands on experience with some of the APIs and gives you a glimpse of whats possible.
 
-## [Lesson 1](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-1:-The-Tools-of-the-Trade)
+## [Lesson 1: The Tools of the trade](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-1:-The-Tools-of-the-Trade)
 
-## [Lesson 2](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-2:-Introducing-Cross-Device-Targeting-in-Adobe-Target)
+## [Lesson 2: Introducing Cross Device Targeting in Adobe Target](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-2:-Introducing-Cross-Device-Targeting-in-Adobe-Target)
 
-## [Lesson 3](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-3:-Creating-Experience-targeted-activity)
+## [Lesson 3: Creating Experience Targeted Activity](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-3:-Creating-Experience-targeted-activity)
 
-## [Lesson 4](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-4:-Mobile-Device-Targeting)
+## [Lesson 4: Mobile Device Targeting](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-4:-Mobile-Device-Targeting)
 
-## [Lesson 5](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-5:-Understanding-Server-side-mbox-calls)
+## [Lesson 5: Understanding server side mbox calls](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-5:-Understanding-Server-side-mbox-calls)
 
-## [Lesson 6](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-6:-Offline-Profile-Management)
+## [Lesson 6: Profile Management APIs](https://github.com/Adobe-Marketing-Cloud/target-api-examples/wiki/Lesson-6:-Profile-Management-APIs)
