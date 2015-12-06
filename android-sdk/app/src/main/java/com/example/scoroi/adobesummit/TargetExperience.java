@@ -73,6 +73,7 @@ public class TargetExperience extends Activity {
         Map<String, Object> parameters = new HashMap<>();
         parameters.put(nativeAppMboxParameter, nativeAppMboxValue);
         parameters.put("mbox3rdPartyId", getMbox3rdPartyId());
+        parameters.put("mboxHost", "");
         for (Map.Entry<String, Object> parameterEntry : additionalParameters.entrySet()) {
             parameters.put(parameterEntry.getKey(), parameterEntry.getValue());
         }
