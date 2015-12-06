@@ -5,7 +5,6 @@ targetApi = adobe.target.TargetAPI.TargetAPI()
 targetApi.verbose = False
 
 
-# Process the request, and do a fetch of a resource to inspect it.
 def process_response(res, action, resource_type):
     """
     Inspect the response returned by Adobe Target API
