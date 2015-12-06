@@ -5,6 +5,12 @@ pytarget is a basic example providing a way to make a calls to Adobe Target rest
 TargetAPI.py --> Implementation that takes care of authentication, and exposes methods to make the api calls
 TargetApiClient.py --> Sample implementation that makes a call to target apis.
 
+## Features
+
+*  Authenticates with the Adobe MC Gateway using JWT based authentication
+*  Fetch listing of Target Activities, Audiences, Offers
+*  From the fetched list, fetchs back details of a specific activity, offer or audience
+
 ## Pre-requisites:
 
 Generate a API Key from https://marketing.adobe.io, this means that you already have the following elements to make a 
