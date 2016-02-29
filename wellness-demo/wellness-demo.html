@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/wellness-style.css">
+
+    <!-- JS -->
+    <!-- load angular, nganimate, and ui-router -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
+    <script src="js/at_adobeinternalsummitl.js"></script>
+    <script src="js/wellness-app.js"></script>
+
+</head>
+<body ng-app="wellnessApp">
+
+<div class="page-header text-center">
+    <h2>Wellness Smart Display Center</h2>
+
+    <div id="classicMboxId" class="mboxDefault">
+        Your activity state
+    </div>
+
+    <script>
+        mboxDefine('classicMboxId', 'wellnessImageMbox');
+        mboxUpdate('wellnessImageMbox');
+    </script>
+</div>
+
+<!-- views will be injected here -->
+<div class="container">
+    <div ui-view></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+        <div class="jumbotron text-muted text-center">
+            <p>Powered by Adobe Target</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

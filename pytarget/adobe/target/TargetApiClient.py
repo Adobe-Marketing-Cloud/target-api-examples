@@ -1,8 +1,12 @@
 import adobe.target.TargetAPI
+import adobe.target.TargetEdgeAPI
 import json
 
 targetApi = adobe.target.TargetAPI.TargetAPI()
+targetEdgeApi = adobe.target.TargetEdgeAPI.TargetEdgeAPI()
+
 targetApi.verbose = False
+targetEdgeApi.verbose = True
 
 
 def process_response(res, action, resource_type):
@@ -32,18 +36,19 @@ def process_response(res, action, resource_type):
 
 
 def main():
-    # obtain access token
-    targetApi.obtain_access_token()
-
-    # request information
-    res = targetApi.execute_activities_request(0)
-    process_response(res, "activities", "activity")
-
-    res = targetApi.execute_audiences_request(0)
-    process_response(res, "audiences", "audience")
-
-    res = targetApi.execute_offers_request(0)
-    process_response(res, "offers", "offer")
+     targetApi.verbose = True
+     targetApi.obtain_access_token()
+    #
+     res = targetApi.execute_activities_request(0)
+     process_response(res, "activities", "activity")
+    #
+    # res = targetApi.execute_audiences_request(0)
+    # process_response(res, "audiences", "audience")
+    #
+    # res = targetApi.execute_offers_request(0)
+    # process_response(res, "offers", "offer")
+    # targetEdgeApi.verbose = True
+    # targetEdgeApi.send_request("imagesappmbox")
 
 
 if __name__ == "__main__":

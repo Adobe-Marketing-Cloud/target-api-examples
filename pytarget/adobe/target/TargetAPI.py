@@ -18,7 +18,7 @@ if sys.version_info[0] >= 3:
 
 
 class TargetAPI:
-    config_filename = "../../conf/at.conf"
+    config_filename = "../../conf/at_adobesummit.conf"
     verbose = False
     request_retry = True
     request_retry_attempts_max = 4
