@@ -47,8 +47,14 @@ def main():
     #
     # res = targetApi.execute_offers_request(0)
     # process_response(res, "offers", "offer")
-    # targetEdgeApi.verbose = True
-    # targetEdgeApi.send_request("imagesappmbox")
+
+    # This is a example of making a Server side mbox request for a specific client
+     targetEdgeApi.verbose = True
+     body_request = {
+            "mbox": "en_h_nav_cta",
+            "thirdPartyId": "2047337005"
+        }
+     targetEdgeApi.send_request("imagesappmbox","session1", body_request)
 
 
 if __name__ == "__main__":
